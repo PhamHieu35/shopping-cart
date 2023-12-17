@@ -1,0 +1,23 @@
+.register-container {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow:5px 5px 30px 1px grey;
+    border-radius: 5px;
+
+    h1{
+        text-align: center;
+        padding: 25px 0px;
+    }
+    .register-input{
+        padding: 0px 30px;
+        
+        .button-register{
+            margin-top: 30px;
+        }
+    }
+}
